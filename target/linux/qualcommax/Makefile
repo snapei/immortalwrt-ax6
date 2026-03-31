@@ -17,6 +17,8 @@ DEFAULT_PACKAGES += \
 	kmod-qca-nss-dp \
 	kmod-ath11k-ahb wpad-openssl \
 	uboot-envtools losetup \
-	automount autocore luci-app-cpufreq
+	automount autocore luci-app-cpufreq \
+	kmod-qca-nss-drv kmod-qca-nss-ecm \
+	kmod-qca-nss-drv-bridge-mgr
 
 $(eval $(call BuildTarget))
