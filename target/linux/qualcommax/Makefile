@@ -15,8 +15,8 @@ DEFAULT_PACKAGES += \
 	kmod-usb3 kmod-usb-dwc3 kmod-usb-dwc3-qcom \
 	kmod-leds-gpio kmod-gpio-button-hotplug \
 	kmod-qca-nss-dp kmod-ath11k-ahb\
-	wpad-basic-mbedtls e2fsprogs kmod-fs-ext4\
-	uboot-envtools losetup \
+	wpad-basic-mbedtls uboot-envtools\
+	e2fsprogs kmod-fs-ext4 losetup \
 	automount autocore luci-app-cpufreq \
 	kmod-qca-nss-drv kmod-qca-nss-ecm \
 	kmod-qca-nss-drv-bridge-mgr
